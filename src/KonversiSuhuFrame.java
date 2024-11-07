@@ -67,37 +67,6 @@ public class KonversiSuhuFrame extends javax.swing.JFrame {
         lblHasil.setText(String.format("%.2f %s", result, toScale));
     }
 
-    /*
-    private void convertTemperature() {
-        String input = txtSuhu.getText().trim(); 
-
-        if (input.isEmpty()) {
-            JOptionPane.showMessageDialog(this, "Input tidak boleh kosong. Silakan masukkan nilai suhu.", "Input Tidak Valid", JOptionPane.ERROR_MESSAGE);
-            return; 
-        }
-
-        if (!KonversiSuhuHelper.isNumeric(input)) {
-            JOptionPane.showMessageDialog(this, "Masukkan angka yang valid.", "Input Tidak Valid", JOptionPane.ERROR_MESSAGE);
-            return; 
-        }
-
-        double value = Double.parseDouble(input);
-        String fromScale = (String) cmbKanan.getSelectedItem();
-        String toScale = (String) cmbKiri.getSelectedItem();
-
-        if (radioKiriKeKanan.isSelected()) {
-            String temp = fromScale;
-            fromScale = toScale;
-            toScale = temp;
-        }
-
-        double result = KonversiSuhuHelper.convertTemperature(value, fromScale, toScale);
-        JOptionPane.showMessageDialog(this, "Hasil: " + result + " " + toScale, "Hasil Konversi", JOptionPane.INFORMATION_MESSAGE);
-    
-    }*/
-    
-    
-
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
